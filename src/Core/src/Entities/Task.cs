@@ -2,4 +2,5 @@
 
 public readonly struct Task
 {
+	public readonly int Id { get; }
 }
