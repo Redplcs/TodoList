@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1DBBAB68-F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redplcs.TodoList.Core", "src\Core\src\Redplcs.TodoList.Core.csproj", "{BC706D78-A7F6-4F01-A301-09A59F76E49F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redplcs.TodoList.Core.Tests", "src\Core\tests\Redplcs.TodoList.Core.Tests.csproj", "{B7F65122-5EEC-45DF-BC8A-333625116C08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +24,14 @@ Global
 		{BC706D78-A7F6-4F01-A301-09A59F76E49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC706D78-A7F6-4F01-A301-09A59F76E49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC706D78-A7F6-4F01-A301-09A59F76E49F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F65122-5EEC-45DF-BC8A-333625116C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F65122-5EEC-45DF-BC8A-333625116C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F65122-5EEC-45DF-BC8A-333625116C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F65122-5EEC-45DF-BC8A-333625116C08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1DBBAB68-FE67-4272-B90B-19A106CC921E} = {63CCCF6B-8C73-46BA-8A6D-266EC7F84648}
 		{BC706D78-A7F6-4F01-A301-09A59F76E49F} = {1DBBAB68-FE67-4272-B90B-19A106CC921E}
+		{B7F65122-5EEC-45DF-BC8A-333625116C08} = {1DBBAB68-FE67-4272-B90B-19A106CC921E}
 	EndGlobalSection
 EndGlobal
