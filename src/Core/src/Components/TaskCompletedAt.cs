@@ -1,3 +1,3 @@
 ﻿namespace Redplcs.TodoList.Core.Components;
 
-public readonly record struct TaskCompletedAt(DateTimeOffset Value);
+public readonly record struct TaskCompletedAt(DateTimeOffset Value) : IComponent;
